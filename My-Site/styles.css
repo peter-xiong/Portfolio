@@ -6,9 +6,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f7f6f2;
+}
+
 /* Header Section */
 .myHeader {
-  background-color: gray;
+  background-color: #4b6587;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,15 +20,40 @@
 }
 
 #myLogo {
-  width: 100px;
+  width: 50px;
   border-radius: 100%;
 }
 
 .navBar {
-  background-color: aqua;
+  font-size: 1.5rem;
   width: 500px;
   display: inline-block;
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+.navItem {
+  color: #f0e5cf;
+  text-decoration: none;
+}
+
+/* Main Section */
+.showCase {
+  display: grid;
+  grid-template-areas: "showCase-info showCase-img";
+  grid-template-columns: 50% 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.showCase-info {
+  color: #404040;
+  padding: 0 2.5rem;
+  text-align: center;
+}
+
+.showCase-img {
+  padding: 2.5rem;
+  margin: auto;
 }
