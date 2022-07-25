@@ -57,3 +57,26 @@ body {
   padding: 2.5rem;
   margin: auto;
 }
+
+/* Projects Section */
+.projects {
+  display: flex;
+  background-color: #4b6587;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+
+.project-img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Footer Section */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
