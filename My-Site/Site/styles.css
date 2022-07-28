@@ -1,0 +1,8 @@
+.nav-item {
+  transition: 200ms;
+}
+
+.nav-item:hover {
+  color: #ffa243;
+  font-size: 1.5rem;
+}
